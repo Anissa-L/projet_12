@@ -1,48 +1,52 @@
 import React from "react";
 import Navbar from "../components/Layouts/Navbar";
-import MainBanner from "../components/HomePages/DefaultHome/MainBanner";
-import Services from "../components/HomePages/DefaultHome/Services";
-import About from "../components/HomePages/DefaultHome/About";
-import OurWorks from "../components/HomePages/DefaultHome/OurWorks";
-import WorkProcess from "../components/HomePages/DefaultHome/WorkProcess";
-import Feedback from "../components/Common/Feedback";
-import Team from "../components/Common/Team";
-import FunFacts from "../components/Common/FunFacts";
-import LatestNewsSlider from "../components/Common/LatestNewsSlider";
-import CtaArea from "../components/Common/CtaArea";
-import Partner from "../components/Common/Partner";
+import MainBanner from "../components/HomePages/PersonalPortfolio/MainBanner";
+import MyExpertise from "../components/HomePages/PersonalPortfolio/MyExpertise";
+import MyAllProjects from "../components/HomePages/PersonalPortfolio/MyAllProjects";
+import MySkills from "../components/HomePages/PersonalPortfolio/MySkills";
+import MyEducationAndExperience from "../components/HomePages/PersonalPortfolio/MyEducationAndExperience";
+import Testimonials from "../components/HomePages/PersonalPortfolio/Testimonials";
+import MyBestClient from "../components/HomePages/PersonalPortfolio/MyBestClient";
+import LatestBlogPost from "../components/HomePages/PersonalPortfolio/LatestBlogPost";
+import ContactForm from "../components/HomePages/PersonalPortfolio/ContactForm";
 import Footer from "../components/Layouts/Footer";
 
-const Index = () => {
+const PersonalPortfolio = () => {
   return (
     <>
       <Navbar />
 
       <MainBanner />
 
-      <Services />
+      <MyExpertise />
 
-      <About />
+      <MyAllProjects />
 
-      <OurWorks />
+      <div className="separate-border" />
 
-      <WorkProcess />
+      <MySkills />
 
-      <Feedback />
+      <div className="separate-border" />
 
-      <Team />
+      <MyEducationAndExperience />
 
-      <FunFacts />
+      <Testimonials />
 
-      <LatestNewsSlider />
+      <div className="separate-border" />
 
-      <CtaArea />
+      <MyBestClient />
 
-      <Partner />
+      <div className="separate-border" />
+
+      <LatestBlogPost />
+
+      <div className="separate-border" />
+
+      <ContactForm />
 
       <Footer />
     </>
   );
 };
 
-export default Index;
+export default PersonalPortfolio;

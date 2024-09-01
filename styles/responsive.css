@@ -995,6 +995,7 @@
     font-size: 30px;
   }
   .service-details-info .single-info-box {
+    -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -1112,6 +1113,7 @@
     padding: 0px 25px;
   }
   .service-details-info .single-info-box {
+    -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
   }
@@ -1742,6 +1744,7 @@
     padding-left: 0;
   }
   .service-details-info .single-info-box {
+    -ms-flex: 0 0 33.33%;
     flex: 0 0 33.33%;
     max-width: 33.33%;
   }
@@ -1812,6 +1815,7 @@
     padding-right: 12px;
   }
   .main-banner .row {
+    -ms-flex-align: center !important;
     align-items: center !important;
   }
   .banner-animation-image {
