@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import LA from "../../public/images/personal-portfolio/la.png";
 
 const Navbar = () => {
   // Add active class
@@ -41,7 +42,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-md navbar-light">
           <div className="container">
             <Link href="/" className="navbar-brand">
-              Anissa
+              <Image src={LA} alt="logo la" className="logo-la-navbar" />
             </Link>
 
             {/* Toggle navigation */}
@@ -117,10 +118,30 @@ const Navbar = () => {
                     </li>
                   </ul>*/}
                 </li>
+                <li className="nav-item">
+                  <Link
+                    href="#skills-section"
+                    className={`nav-link ${
+                      currentPath == "#skills-section" ? "active" : ""
+                    }`}
+                  >
+                    Mes compétences
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    href="#diplôme-section"
+                    className={`nav-link ${
+                      currentPath == "#diplôme-section" ? "active" : ""
+                    }`}
+                  >
+                    Mes diplômes
+                  </Link>
+                </li>
               </ul>
 
               <div className="others-options">
-                <Link href="/contact-us/" className="btn btn-primary">
+                <Link href="#contact-section" className="btn btn-primary">
                   Contactez-moi
                 </Link>
               </div>

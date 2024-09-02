@@ -5,8 +5,9 @@ import withReactContent from "sweetalert2-react-content";
 const MySwal = withReactContent(Swal);
 import baseUrl from "../../../utils/baseUrl";
 import Image from "next/image";
+import IconContact from "../../../public/images/personal-portfolio/icon-contact.png";
 
-import contactImg from "../../../public/images/personal-portfolio/contact.jpg";
+//import contactImg from "../../../public/images/personal-portfolio/contact.jpg";
 
 const alertContent = () => {
   MySwal.fire({
@@ -54,29 +55,18 @@ const ContactForm = () => {
 
   return (
     <>
-      <div className="pp-contact-area ptb-100">
+      <div id="contact-section" className="pp-contact-area ptb-100">
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
-              <div className="contact-img">
-                <Image
-                  src={contactImg}
-                  alt="Contact"
-                  width={800}
-                  height={567}
-                />
-              </div>
-            </div>
-
+          <div className="row align-items-center contact-section">
             <div className="col-lg-6">
               <div className="contact-form">
                 <div className="contact-title">
-                  <h2>Hire Me!</h2>
+                  <Image src={IconContact} alt="icon contact" />
+                  <h2>Travaillons ensemble !</h2>
                   <p>
-                    I am available for freelancing work. Please connect with me
-                    via phone: <a href="tel:+441372278462">+44 1372 278462</a>{" "}
-                    or email:{" "}
-                    <a href="mailto:hello@pungent.com">hello@pungent.com</a>
+                    Mon numéro de téléphone{" "}
+                    <a href="tel:+441372278462">+..........</a> <br />
+                    Mon email: <a href="mailto:hello@pungent.com">email.com</a>
                   </p>
                 </div>
 
@@ -88,7 +78,7 @@ const ContactForm = () => {
                           <input
                             type="text"
                             name="name"
-                            placeholder="Name"
+                            placeholder="Nom"
                             className="form-control"
                             value={contact.name}
                             onChange={handleChange}
@@ -116,7 +106,7 @@ const ContactForm = () => {
                           <input
                             type="text"
                             name="number"
-                            placeholder="Phone number"
+                            placeholder="Numéro de téléphone"
                             className="form-control"
                             value={contact.number}
                             onChange={handleChange}
@@ -130,7 +120,7 @@ const ContactForm = () => {
                           <input
                             type="text"
                             name="subject"
-                            placeholder="Subject"
+                            placeholder="Sujet du courriel"
                             className="form-control"
                             value={contact.subject}
                             onChange={handleChange}
@@ -145,7 +135,7 @@ const ContactForm = () => {
                             name="text"
                             cols="30"
                             rows="6"
-                            placeholder="Write your message..."
+                            placeholder="Ecrivez votre message..."
                             className="form-control"
                             value={contact.text}
                             onChange={handleChange}
@@ -153,7 +143,7 @@ const ContactForm = () => {
                           />
                         </div>
                       </div>
-                      
+
                       <div className="col-lg-12 col-sm-12">
                         <button type="submit" className="btn btn-primary">
                           Send Message

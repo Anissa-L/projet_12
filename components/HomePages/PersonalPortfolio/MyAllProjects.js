@@ -47,7 +47,7 @@ const MyAllProjects = () => {
       <div className="pp-works-area ptb-100">
         <div className="container">
           <div className="section-title style-two">
-            <h2>My All Projects</h2>
+            <h2>Mes projets</h2>
           </div>
 
           <div className="row justify-content-center">

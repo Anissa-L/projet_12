@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-//import Image from "next/image";
 
 const MainBanner = () => {
   return (
@@ -25,7 +24,7 @@ const MainBanner = () => {
                   data-aos-duration="1000"
                   data-aos-delay="200"
                 >
-                  Anissa Lamtalsi
+                  Lamtalsi Anissa
                 </h1>
 
                 <h4
