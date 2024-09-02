@@ -208,6 +208,7 @@
 
 /* Skills Area CSS */
 .pp-skills-box {
+  height: 75%;
   margin-bottom: 30px;
   text-align: center;
   padding: 30px;
