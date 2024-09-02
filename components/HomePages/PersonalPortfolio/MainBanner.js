@@ -47,13 +47,14 @@ const MainBanner = () => {
                 </p>
 
                 <Link
-                  href="/contact-us/"
+                  href="/images/personal-portfolio/cv.pdf"
                   className="default-btn-two"
                   data-aos="fade-in"
                   data-aos-duration="1000"
                   data-aos-delay="400"
+                  download
                 >
-                  Consultez mon CV
+                  Téléchargez mon CV
                 </Link>
               </div>
             </div>

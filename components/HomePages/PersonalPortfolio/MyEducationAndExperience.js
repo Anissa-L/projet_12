@@ -4,7 +4,7 @@ const myEducationData = [
   {
     Organisme: "OpenClassrooms",
     year: "2024",
-    category: "Bac +2 Développeuse front-end - intégrateuse web",
+    category: "Bac +2 Développeuse front-end - intégratrice web",
     aosDelay: "200",
   },
   {
