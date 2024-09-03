@@ -17,7 +17,11 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Saira:100,200,300,400,500,600,700,800,900&display=swap"
             rel="stylesheet"
           />
-          <link rel="icon" type="image/png" href="/favicon.png"></link>
+          <link
+            rel="icon"
+            type="image/png"
+            href="/images/personal-portfolio/la-icone.png"
+          ></link>
         </Head>
         <body>
           <Main />

@@ -420,10 +420,10 @@ Navbar CSS
   content: "";
   position: absolute;
 }
-.navbar-area nav .navbar-nav .nav-item a:hover, .navbar-area nav .navbar-nav .nav-item a:focus, .navbar-area nav .navbar-nav .nav-item a.active {
+.navbar-area nav .navbar-nav .nav-item a:hover {
   color: #18181b;
 }
-.navbar-area nav .navbar-nav .nav-item a:hover::before, .navbar-area nav .navbar-nav .nav-item a:focus::before, .navbar-area nav .navbar-nav .nav-item a.active::before {
+.navbar-area nav .navbar-nav .nav-item a:hover::before {
   width: 60%;
 }
 .navbar-area nav .navbar-nav .nav-item a i {

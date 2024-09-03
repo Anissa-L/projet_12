@@ -449,9 +449,7 @@ Navbar CSS
             content: "";
             position: absolute;
           }
-          &:hover,
-          &:focus,
-          &.active {
+          &:hover {
             color: $black-color;
 
             &::before {

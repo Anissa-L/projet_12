@@ -42,8 +42,11 @@ const MainBanner = () => {
                   data-aos-duration="1000"
                   data-aos-delay="400"
                 >
-                  Je transforme vos idées en réalités digitales, en combinant
-                  design et développement.
+                  Passionnée par le développement web, je transforme vos idées
+                  en réalités digitales. En combinant design et développement,
+                  je crée des sites web sur-mesure qui répondent à vos besoins.
+                  Récemment diplômée, je suis impatiente de mettre à profit mes
+                  compétences pour donner vie à vos projets.
                 </p>
 
                 <Link

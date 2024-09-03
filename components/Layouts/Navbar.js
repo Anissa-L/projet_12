@@ -64,34 +64,11 @@ const Navbar = () => {
             <div className={classOne} id="navbarSupportedContent">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <Link
-                    href="/"
-                    className={`nav-link ${currentPath == "/" && "active"}`}
-                  >
-                    Accueil
-                  </Link>
+                  <Link href="/">Accueil</Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link
-                    href="/about/"
-                    className={`nav-link ${
-                      currentPath == "/about/" && "active"
-                    }`}
-                  >
-                    À propos
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link
-                    href="/portfolio/"
-                    className={`nav-link ${
-                      currentPath == "/portfolio/" && "active"
-                    }`}
-                  >
-                    Portfolio
-                  </Link>
+                  <Link href="/portfolio/">Portfolio</Link>
 
                   {/*<ul className="dropdown-menu">
                     <li className="nav-item">
@@ -119,24 +96,10 @@ const Navbar = () => {
                   </ul>*/}
                 </li>
                 <li className="nav-item">
-                  <Link
-                    href="#skills-section"
-                    className={`nav-link ${
-                      currentPath == "#skills-section" ? "active" : ""
-                    }`}
-                  >
-                    Mes compétences
-                  </Link>
+                  <Link href="#skills-section">Mes compétences</Link>
                 </li>
                 <li className="nav-item">
-                  <Link
-                    href="#diplôme-section"
-                    className={`nav-link ${
-                      currentPath == "#diplôme-section" ? "active" : ""
-                    }`}
-                  >
-                    Mes diplômes
-                  </Link>
+                  <Link href="#diplôme-section">Mes diplômes</Link>
                 </li>
               </ul>
 
