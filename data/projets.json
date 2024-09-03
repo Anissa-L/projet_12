@@ -1,0 +1,17 @@
+{
+    "projets": [
+        {
+            "id": 1,
+            "title": "Booki",
+            "scenario": "Vous débutez votre alternance en tant que développeur web au sein de la start-up Booki. L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS.",
+            "description": "Ce projet m'a permis de mettre en pratique mes connaissances en HTML5 et CSS3. À partir d'une maquette Figma détaillée, j'ai structuré le contenu de la page d'accueil de l'agence de voyage en utilisant des éléments HTML sémantiques. J'ai ensuite appliqué les styles CSS pour obtenir un rendu visuel fidèle à la maquette, tout en assurant la responsivité du design pour une expérience utilisateur optimale sur tous les appareils.",
+            "competences": [
+                {
+                    "image": "/images/personal-portfolio/html.png",
+                    "title": "HTML",
+                    "description": "Utilisation des balises HTML pour structurer le contenu de la page."
+                }
+            ]
+        }
+    ]
+}
