@@ -70,30 +70,17 @@ const Navbar = () => {
                 <li className="nav-item">
                   <Link href="/portfolio/">Portfolio</Link>
 
-                  {/*<ul className="dropdown-menu">
+                  <ul className="dropdown-menu">
                     <li className="nav-item">
-                      <Link
-                        href="/portfolio/"
-                        className={`nav-link ${
-                          currentPath == "/portfolio/" && "active"
-                        }`}
-                      >
-                        Portfolio
-                      </Link>
+                      <Link href="#portfolio">Portfolio</Link>
                     </li>
 
                     <li className="nav-item">
-                      <Link
-                        href="/portfolio/portfolio-details/"
-                        className={`nav-link ${
-                          currentPath == "/portfolio/portfolio-details/" &&
-                          "active"
-                        }`}
-                      >
+                      <Link href="/portfolio/portfolio-details/">
                         Portfolio Details
                       </Link>
                     </li>
-                  </ul>*/}
+                  </ul>
                 </li>
                 <li className="nav-item">
                   <Link href="#skills-section">Mes compétences</Link>

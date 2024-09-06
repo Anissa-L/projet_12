@@ -2,7 +2,9 @@
     "projets": [
         {
             "id": 1,
+            "name": "booki",
             "title": "Booki",
+            "image": "/images/personal-portfolio/projet-1.webp",
             "scenario": "Vous débutez votre alternance en tant que développeur web au sein de la start-up Booki. L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS.",
             "description": "Ce projet m'a permis de mettre en pratique mes connaissances en HTML5 et CSS3. À partir d'une maquette Figma détaillée, j'ai structuré le contenu de la page d'accueil de l'agence de voyage en utilisant des éléments HTML sémantiques. J'ai ensuite appliqué les styles CSS pour obtenir un rendu visuel fidèle à la maquette, tout en assurant la responsivité du design pour une expérience utilisateur optimale sur tous les appareils.",
             "competences": [
@@ -10,8 +12,220 @@
                     "image": "/images/personal-portfolio/html.png",
                     "title": "HTML",
                     "description": "Utilisation des balises HTML pour structurer le contenu de la page."
+                },
+                {
+                    "image": "/images/personal-portfolio/css-3.png",
+                    "title": "CSS3",
+                    "description": "Application des styles CSS pour créer un design personnalisé et responsive."
+                },
+                {
+                    "image": "/images/personal-portfolio/figma.png",
+                    "title": "Figma",
+                    "description": "Utilisation de Figma pour la conception de la maquette."
                 }
-            ]
+                
+            ],
+            "aosDelay": "100"
+        },
+        {
+            "id": 2,
+            "name": "ohmyfood",
+            "title": "Ohmyfood",
+            "image": "/images/personal-portfolio/projet-2.webp",
+            "scenario": "Vous avez intégré Ohmyfood en tant que développeur junior. Il s’agit d’une jeune startup qui voudrait s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite désormais faire sa place à Paris. Votre mission est de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée.",
+            "description": "En tant que développeur front-end, j'ai donné vie à l'interface d'Ohmyfood en combinant structure HTML, style CSS et animations personnalisées. J'ai utilisé Sass pour organiser et structurer mon code CSS, ce qui a facilité la maintenance du projet. J'ai également accordé une attention particulière à la responsivité du site, en m'assurant que l'expérience utilisateur soit optimale sur tous les appareils.",
+            "competences":[
+                {
+                    "image": "/images/personal-portfolio/html.png",
+                    "title": "HTML",
+                    "description": "Utilisation des balises HTML pour structurer le contenu de la page."
+                },
+                {
+                    "image": "/images/personal-portfolio/css-3.png",
+                    "title": "CSS3",
+                    "description": "Application de styles CSS3 pour créer une interface utilisateur moderne et attrayante."
+                },
+                {
+                    "image": "/images/personal-portfolio/sass.png",
+                    "title": "SASS",
+                    "description": "Organisation et structuration des styles CSS à l'aide de Sass pour améliorer la maintenabilité du code et faciliter les modifications futures."
+                },
+                {
+                    "image": "/images/personal-portfolio/figma.png",
+                    "title": "Figma",
+                    "description": "Utilisation de Figma pour la conception de la maquette."
+                },
+                {
+                    "image": "/images/personal-portfolio/github.png",
+                    "title": "Github",
+                    "description": "Utilisation de GitHub pour la gestion de version du projet."
+                }
+            ],
+            "aosDelay": "200"
+        },
+        {
+            "id": 3,
+            "name": "sophiebluel",
+            "title": "Sophie Bluel",
+            "image": "/images/personal-portfolio/projet-3.webp",
+            "scenario": "Vous travaillez comme développeur front-end pour l'agence ArchiWebos qui comprend 50 salariés. Vous travaillez sur la conception du site portfolio d'un architecte d'intérieur. Vous avez 3 missions principales. Vous devez développer : - la page de présentation des travaux de l'architecte (à partir du HTML fourni); - la page de connexion de l'administrateur du site (le client)(code à créer de zéro); - la modale permettant d'uploader de nouveaux médias (code à créer from scratch).",
+            "description": "Ce projet m'a permis de démontrer ma polyvalence en tant que développeur front-end. J'ai travaillé sur différentes parties du site, de la page d'accueil basée sur une maquette existante à la création complète de fonctionnalités complexes comme la page de connexion et la modale d'upload. J'ai utilisé un éventail de technologies (HTML, CSS, Sass, Figma, GitHub) pour livrer un produit final de haute qualité, tout en intégrant une API REST pour des fonctionnalités plus avancées.",
+            "competences":[
+                {
+                    "image": "/images/personal-portfolio/html.png",
+                    "title": "HTML",
+                    "description": "Utilisation des balises HTML pour structurer le contenu de la page."
+                },
+                {
+                    "image": "/images/personal-portfolio/css-3.png",
+                    "title": "CSS3",
+                    "description": "Application de styles CSS3 pour créer une interface utilisateur moderne et attrayante."
+                },
+                {
+                    "image": "/images/personal-portfolio/sass.png",
+                    "title": "SASS",
+                    "description":"Organisation et structuration des styles CSS à l'aide de Sass pour améliorer la maintenabilité du code et faciliter les modifications futures."
+                },
+                {
+                    "image": "/images/personal-portfolio/figma.png",
+                    "title": "Figma",
+                    "description": "Utilisation de Figma pour la conception de la maquette."
+                },
+                {
+                    "image": "/images/personal-portfolio/github.png",
+                    "title": "Github",
+                    "description": "Utilisation de GitHub pour la gestion de version du projet."
+                },
+                {
+                    "image": "/images/personal-portfolio/js.png",
+                    "title": "JavaScript",
+                    "description": "Développement d'applications web interactives avec JavaScript."
+                },
+                {
+                    "image": "/images/personal-portfolio/api.png",
+                    "title": "API REST",
+                    "description": "Intégration d'une API REST pour gérer les interactions avec un backend"
+                }
+            ],
+            "aosDelay": "300"
+        },
+        {
+            "id": 4,
+            "name": "kasa",
+            "title": "Kasa",
+            "image": "/images/personal-portfolio/projet-4.webp",
+            "scenario": "Vous êtes développeur front-end en freelance pour Kasa, une entreprise de location d'appartements entre particuliers. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de location d'appartements entre particuliers en France. L'occasion parfaite pour vous d'ajouter une belle référence à votre portfolio de freelance ! Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec code de legacy important. Laura, la CTO, a donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Kasa en a également profité pour commander de nouvelles maquettes auprès de son designer habituel, qui est en freelance. Un gros chantier pour cette année !",
+            "description": "En tant que développeur front-end, j'ai été chargé de moderniser l'interface utilisateur de Kasa en utilisant React. Partant d'une base de code legacy, j'ai mis en place une architecture composant, optimisée pour les performances et la maintenabilité. J'ai développé de nombreuses fonctionnalités, telles que la recherche d'hébergements, la gestion des favoris et les pages détaillées des annonces, en me basant sur des maquettes Figma. Ce projet m'a permis de renforcer mes compétences en React, en JavaScript moderne et en gestion de state.",
+            "competences":[
+                {
+                    "image": "/images/personal-portfolio/html.png",
+                    "title": "HTML",
+                    "description": "Utilisation des balises HTML pour structurer le contenu de la page."
+                },
+                {
+                    "image": "/images/personal-portfolio/css-3.png",
+                    "title": "CSS3",
+                    "description": "Application de styles CSS3 pour créer une interface utilisateur moderne et attrayante."
+                },
+                {
+                    "image": "/images/personal-portfolio/sass.png",
+                    "title": "SASS",
+                    "description": "Organisation et structuration des styles CSS à l'aide de Sass pour améliorer la maintenabilité du code et faciliter les modifications futures."
+                },
+                {
+                    "image": "/images/personal-portfolio/figma.png",
+                    "title": "Figma",
+                    "description": "Utilisation de Figma pour la conception de la maquette."
+                },
+                {
+                    "image": "/images/personal-portfolio/github.png",
+                    "title": "Github",
+                    "description": "Utilisation de GitHub pour la gestion de version du projet."
+                },
+                {
+                    "image": "/images/personal-portfolio/js.png",
+                    "title": "JavaScript",
+                    "description": "Développement d'applications web interactives avec JavaScript."
+                },
+                {
+                    "image": "/images/personal-portfolio/react.png",
+                    "title": "React",
+                    "description": "Création d'interfaces utilisateur dynamiques et performantes avec React."
+                },
+                {
+                    "image": "/images/personal-portfolio/json.png",
+                    "title": "JSON",
+                    "description": "Manipulation de données JSON pour alimenter les interfaces."
+                }
+            ],
+            "aosDelay": "400"
+        },
+        {
+            "id": 5,
+            "name": "ninacarducci",
+            "title": "Nina Carducci",
+            "image": "/images/personal-portfolio/projet-5.webp",
+            "scenario": "Vous êtes développeur freelance et vous décidez de proposer vos services d'optimisation SEO à de nouveaux clients. Parmi vos prospects, il y a le site de Nina Carducci, une photographe dont vous a parlé un de vos amis.",
+            "description": "En tant que développeur front-end, j'ai été sollicité pour améliorer la visibilité en ligne du site de Nina Carducci, une photographe. J'ai mené une optimisation SEO complète en me basant sur les recommandations de Lighthouse. Mes interventions ont porté sur la structure HTML, l'expérience utilisateur et le contenu.",
+            "competences":[
+                {
+                    "image": "/images/personal-portfolio/html.png",
+                    "title": "HTML",
+                    "description": "Utilisation des balises HTML pour structurer le contenu de la page."
+                },
+                {
+                    "image": "/images/personal-portfolio/css-3.png",
+                    "title": "CSS3",
+                    "description": "Application de styles CSS3 pour créer une interface utilisateur moderne et attrayante."
+                },
+                {
+                    "image": "/images/personal-portfolio/lighthouse.png",
+                    "title": "Light House",
+                    "description": "Utilisation Lighthouse pour auditer et améliorer la performance, l'accessibilité et le SEO du site."
+                }
+            ],
+            "aosDelay": "500"
+        },
+        {
+            "id": 6,
+            "name": "argentbank",
+            "title": "Argent Bank",
+            "image": "/images/personal-portfolio/projet-6.webp",
+            "scenario": "Vous venez d'intégrer Argent Bank comme développeur front-end. Argent Bank est une nouvelle banque en ligne qui souhaite percer dans le secteur bancaire. Vous travaillez avec Mila , la cheffe de projet, pour la mise en place des du tableau de bord des utilisateurs.",
+            "description": "Dans le cadre de mon intégration chez Argent Bank, j'ai été en charge de concevoir et développer le tableau de bord utilisateur. J'ai utilisé React pour créer une interface utilisateur dynamique et réactive, et Redux pour gérer de manière efficace l'état de l'application. En me basant sur les spécifications fournies, j'ai consommé différentes API pour récupérer les informations des comptes, des transactions et des investissements de chaque utilisateur, offrant ainsi un aperçu complet de leur situation financière.",
+            "competences":[
+                {
+                    "image": "/images/personal-portfolio/html.png",
+                    "title": "HTML",
+                    "description": "Utilisation des balises HTML pour structurer le contenu de la page."
+                },
+                {
+                    "image": "/images/personal-portfolio/sass.png",
+                    "title": "SASS",
+                    "description": "Organisation et structuration des styles CSS à l'aide de Sass pour améliorer la maintenabilité du code et faciliter les modifications futures."
+                },
+                {
+                    "image": "/images/personal-portfolio/github.png",
+                    "title": "Github",
+                    "description": "Utilisation de GitHub pour la gestion de version du projet."
+                },
+                {
+                    "image": "/images/personal-portfolio/js.png",
+                    "title": "JavaScript",
+                    "description": "Développement d'applications web interactives avec JavaScript."
+                },
+                {
+                    "image": "/images/personal-portfolio/react.png",
+                    "title": "React",
+                    "description": "Création d'interfaces utilisateur dynamiques et performantes avec React."
+                },
+                {
+                    "image": "/images/personal-portfolio/redux.png",
+                    "title": "Redux",
+                    "description": "Utilisation de la bibliothèque JavaScript pour la gestion centralisée de l'état de l'application pour une meilleure prévisibilité et maintenabilité."
+                }
+            ],
+            "aosDelay": "600"
         }
     ]
 }
