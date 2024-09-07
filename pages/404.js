@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Layouts/Navbar";
 import ErrorContent from "../components/Error/ErrorContent";
-import Footer from "../components/Layouts/Footer";
+import FooterDark from "../components/Layouts/FooterDark";
 
 const Error = () => {
   return (
@@ -10,7 +10,7 @@ const Error = () => {
 
       <ErrorContent />
 
-      <Footer />
+      <FooterDark />
     </>
   );
 };
