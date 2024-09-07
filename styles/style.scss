@@ -5024,6 +5024,11 @@ textarea.form-control {
 /*================================================
 404 Error CSS
 =================================================*/
+.error-area {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
 .error-content {
   margin: 0 auto;
   max-width: 650px;
@@ -5763,6 +5768,7 @@ Footer CSS
 .footer-area {
   background-color: #f6f9fc;
   padding-top: 100px;
+  padding-bottom: 95px;
   position: relative;
   z-index: 1;
 }

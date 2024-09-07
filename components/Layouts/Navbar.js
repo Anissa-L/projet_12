@@ -68,13 +68,13 @@ const Navbar = () => {
                 </li>
 
                 <li className="nav-item">
-                  <Link href="#portfolio">Portfolio</Link>
+                  <Link href="/#portfolio">Portfolio</Link>
                 </li>
                 <li className="nav-item">
-                  <Link href="#skills-section">Mes compétences</Link>
+                  <Link href="/#skills-section">Mes compétences</Link>
                 </li>
                 <li className="nav-item">
-                  <Link href="#diplôme-section">Mes diplômes</Link>
+                  <Link href="/#diplôme-section">Mes diplômes</Link>
                 </li>
               </ul>
 

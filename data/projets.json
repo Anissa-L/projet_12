@@ -72,7 +72,7 @@
             "name": "sophiebluel",
             "title": "Sophie Bluel",
             "image": "/images/personal-portfolio/projet-3.webp",
-            "scenario": "Vous travaillez comme développeur front-end pour l'agence ArchiWebos qui comprend 50 salariés. Vous travaillez sur la conception du site portfolio d'un architecte d'intérieur. Vous avez 3 missions principales. Vous devez développer : - la page de présentation des travaux de l'architecte (à partir du HTML fourni); - la page de connexion de l'administrateur du site (le client)(code à créer de zéro); - la modale permettant d'uploader de nouveaux médias (code à créer from scratch).",
+            "scenario": "Vous travaillez comme développeur front-end pour l'agence ArchiWebos qui comprend 50 salariés. Vous travaillez sur la conception du site portfolio d'un architecte d'intérieur. Vous avez 3 missions principales. Vous devez développer : la page de présentation des travaux de l'architecte (à partir du HTML fourni), la page de connexion de l'administrateur du site (le client)(code à créer de zéro) et la modale permettant d'uploader de nouveaux médias (code à créer from scratch).",
             "description": "Ce projet m'a permis de démontrer ma polyvalence en tant que développeur front-end. J'ai travaillé sur différentes parties du site, de la page d'accueil basée sur une maquette existante à la création complète de fonctionnalités complexes comme la page de connexion et la modale d'upload. J'ai utilisé un éventail de technologies (HTML, CSS, Sass, Figma, GitHub) pour livrer un produit final de haute qualité, tout en intégrant une API REST pour des fonctionnalités plus avancées.",
             "github":"https://github.com/Anissa-L/JSprojet_6",
             "competences":[
@@ -120,7 +120,7 @@
             "title": "Kasa",
             "image": "/images/personal-portfolio/projet-4.webp",
             "scenario": "Vous êtes développeur front-end en freelance pour Kasa, une entreprise de location d'appartements entre particuliers. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de location d'appartements entre particuliers en France. L'occasion parfaite pour vous d'ajouter une belle référence à votre portfolio de freelance ! Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec code de legacy important. Laura, la CTO, a donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Kasa en a également profité pour commander de nouvelles maquettes auprès de son designer habituel, qui est en freelance. Un gros chantier pour cette année !",
-            "description": "En tant que développeur front-end, j'ai été chargé de moderniser l'interface utilisateur de Kasa en utilisant React. Partant d'une base de code legacy, j'ai mis en place une architecture composant, optimisée pour les performances et la maintenabilité. J'ai développé de nombreuses fonctionnalités, telles que la recherche d'hébergements, la gestion des favoris et les pages détaillées des annonces, en me basant sur des maquettes Figma. Ce projet m'a permis de renforcer mes compétences en React, en JavaScript moderne et en gestion de state.",
+            "description": "En tant que développeur front-end, j'ai été chargé de moderniser l'interface utilisateur de Kasa en utilisant React. Partant d'une base de code legacy, j'ai mis en place une architecture composant, optimisée pour les performances et la maintenabilité. J'ai développé de nombreuses fonctionnalités, telles que la recherche d'hébergements et les pages détaillées des annonces, en me basant sur des maquettes Figma. Ce projet m'a permis de renforcer mes compétences en React, en JavaScript moderne et en gestion de state.",
             "github":"https://github.com/Anissa-L/P8",
             "competences":[
                 {
@@ -188,7 +188,7 @@
                 {
                     "image": "/images/personal-portfolio/lighthouse.png",
                     "title": "Light House",
-                    "description": "Utilisation Lighthouse pour auditer et améliorer la performance, l'accessibilité et le SEO du site."
+                    "description": "Utilisation de Lighthouse pour auditer et améliorer la performance, l'accessibilité et le SEO du site."
                 }
             ],
             "aosDelay": "500"
@@ -199,7 +199,7 @@
             "title": "Argent Bank",
             "image": "/images/personal-portfolio/projet-6.webp",
             "scenario": "Vous venez d'intégrer Argent Bank comme développeur front-end. Argent Bank est une nouvelle banque en ligne qui souhaite percer dans le secteur bancaire. Vous travaillez avec Mila , la cheffe de projet, pour la mise en place des du tableau de bord des utilisateurs.",
-            "description": "Dans le cadre de mon intégration chez Argent Bank, j'ai été en charge de concevoir et développer le tableau de bord utilisateur. J'ai utilisé React pour créer une interface utilisateur dynamique et réactive, et Redux pour gérer de manière efficace l'état de l'application. En me basant sur les spécifications fournies, j'ai consommé différentes API pour récupérer les informations des comptes, des transactions et des investissements de chaque utilisateur, offrant ainsi un aperçu complet de leur situation financière.",
+            "description": "Dans le cadre de mon intégration chez Argent Bank, j'ai été en charge de concevoir et développer le tableau de bord utilisateur. J'ai utilisé React pour créer une interface utilisateur dynamique et réactive, et Redux pour gérer de manière efficace l'état de l'application. En me basant sur les spécifications fournies, j'ai consommé différentes API pour récupérer les informations des comptes et des transactions de chaque utilisateur, offrant ainsi un aperçu complet de leur situation financière.",
             "github":"https://github.com/Anissa-L/Projet-11",
             "competences":[
                 {

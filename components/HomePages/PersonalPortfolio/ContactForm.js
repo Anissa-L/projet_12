@@ -65,8 +65,11 @@ const ContactForm = () => {
                   <h2>Travaillons ensemble !</h2>
                   <p>
                     Mon numéro de téléphone{" "}
-                    <a href="tel:+441372278462">+..........</a> <br />
-                    Mon email: <a href="mailto:hello@pungent.com">email.com</a>
+                    <a href="tel:+33767596228">+33767596228</a> <br />
+                    Mon email:{" "}
+                    <a href="mailto:lamtalsi.web@gmail.com">
+                      lamtalsi.web@gmail.com
+                    </a>
                   </p>
                 </div>
 
@@ -146,7 +149,7 @@ const ContactForm = () => {
 
                       <div className="col-lg-12 col-sm-12">
                         <button type="submit" className="btn btn-primary">
-                          Send Message
+                          Envoyer
                         </button>
                       </div>
                     </div>

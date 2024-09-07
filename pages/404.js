@@ -1,15 +1,12 @@
 import React from "react";
-import NavbarTwo from "../components/Layouts/NavbarTwo";
-import PageBanner from "../components/Common/PageBanner";
+import Navbar from "../components/Layouts/Navbar";
 import ErrorContent from "../components/Error/ErrorContent";
 import Footer from "../components/Layouts/Footer";
 
 const Error = () => {
   return (
     <>
-      <NavbarTwo />
-
-      <PageBanner pageTitle="404 Error" BGImage="/images/page-banner3.jpg" />
+      <Navbar />
 
       <ErrorContent />
 

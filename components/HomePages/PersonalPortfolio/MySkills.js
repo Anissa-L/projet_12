@@ -1,37 +1,46 @@
 import React from "react";
+
 import Image from "next/image";
 
 const mySkillsData = [
   {
-    image: "/images/personal-portfolio/html.png",
+    image: "/images/personal-portfolio/html-c.png",
+    title: "HTML 5",
     aosDelay: "200",
   },
   {
-    image: "/images/personal-portfolio/css-3.png",
+    image: "/images/personal-portfolio/css-3-c.png",
+    title: "CSS 3",
     aosDelay: "300",
   },
   {
-    image: "/images/personal-portfolio/sass.png",
+    image: "/images/personal-portfolio/sass-c.png",
+    title: "SASS",
     aosDelay: "400",
   },
   {
-    image: "/images/personal-portfolio/js.png",
+    image: "/images/personal-portfolio/js-c.png",
+    title: "JavaScript",
     aosDelay: "500",
   },
   {
-    image: "/images/personal-portfolio/react.png",
+    image: "/images/personal-portfolio/react-c.png",
+    title: "React",
     aosDelay: "600",
   },
   {
-    image: "/images/personal-portfolio/redux.png",
+    image: "/images/personal-portfolio/redux-c.png",
+    title: "Redux",
     aosDelay: "700",
   },
   {
-    image: "/images/personal-portfolio/github.png",
+    image: "/images/personal-portfolio/github-c.png",
+    title: "Github",
     aosDelay: "800",
   },
   {
-    image: "/images/personal-portfolio/figma.png",
+    image: "/images/personal-portfolio/figma-c.png",
+    title: "Figma",
     aosDelay: "900",
   },
 ];
@@ -69,8 +78,8 @@ const MySkills = () => {
                       width={50}
                       height={10}
                     />
-                    <h4>{value.title}</h4>
                   </div>
+                  <h4>{value.title}</h4>
                 </div>
               ))}
           </div>
@@ -79,5 +88,4 @@ const MySkills = () => {
     </>
   );
 };
-
 export default MySkills;

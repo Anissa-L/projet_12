@@ -6,7 +6,8 @@ import MySkills from "../components/HomePages/PersonalPortfolio/MySkills";
 import MyEducationAndExperience from "../components/HomePages/PersonalPortfolio/MyEducationAndExperience";
 
 import ContactForm from "../components/HomePages/PersonalPortfolio/ContactForm";
-import Footer from "../components/Layouts/Footer";
+
+import FooterDark from "../components/Layouts/FooterDark";
 
 const PersonalPortfolio = () => {
   return (
@@ -29,7 +30,7 @@ const PersonalPortfolio = () => {
 
       <ContactForm />
 
-      <Footer />
+      <FooterDark />
     </>
   );
 };

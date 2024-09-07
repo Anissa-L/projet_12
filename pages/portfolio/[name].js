@@ -2,8 +2,9 @@ import React from "react";
 import Navbar from "../../components/Layouts/Navbar";
 import PageBanner from "../../components/Common/PageBanner";
 import PortfolioDetailsContent from "../../components/Portfolio/PortfolioDetailsContent";
-import Footer from "../../components/Layouts/Footer";
+
 import projects from "../../data/projets.json";
+import FooterDark from "../../components/Layouts/FooterDark";
 
 // Générer les chemins dynamiques pour chaque projet
 export async function getStaticPaths() {
@@ -40,7 +41,7 @@ const PortfolioDetails = ({ project }) => {
 
       <PortfolioDetailsContent project={project} />
 
-      <Footer />
+      <FooterDark />
     </>
   );
 };
