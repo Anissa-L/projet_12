@@ -7,6 +7,8 @@
             "image": "/images/personal-portfolio/projet-1.webp",
             "scenario": "Vous débutez votre alternance en tant que développeur web au sein de la start-up Booki. L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS.",
             "description": "Ce projet m'a permis de mettre en pratique mes connaissances en HTML5 et CSS3. À partir d'une maquette Figma détaillée, j'ai structuré le contenu de la page d'accueil de l'agence de voyage en utilisant des éléments HTML sémantiques. J'ai ensuite appliqué les styles CSS pour obtenir un rendu visuel fidèle à la maquette, tout en assurant la responsivité du design pour une expérience utilisateur optimale sur tous les appareils.",
+            "github":"https://github.com/Anissa-L/Booki",
+            "site":"https://anissa-l.github.io/Booki/",
             "competences": [
                 {
                     "image": "/images/personal-portfolio/html.png",
@@ -34,6 +36,8 @@
             "image": "/images/personal-portfolio/projet-2.webp",
             "scenario": "Vous avez intégré Ohmyfood en tant que développeur junior. Il s’agit d’une jeune startup qui voudrait s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite désormais faire sa place à Paris. Votre mission est de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée.",
             "description": "En tant que développeur front-end, j'ai donné vie à l'interface d'Ohmyfood en combinant structure HTML, style CSS et animations personnalisées. J'ai utilisé Sass pour organiser et structurer mon code CSS, ce qui a facilité la maintenance du projet. J'ai également accordé une attention particulière à la responsivité du site, en m'assurant que l'expérience utilisateur soit optimale sur tous les appareils.",
+            "github":"https://github.com/Anissa-L/Ohmyfood",
+            "site":"https://anissa-l.github.io/Ohmyfood/",
             "competences":[
                 {
                     "image": "/images/personal-portfolio/html.png",
@@ -70,6 +74,7 @@
             "image": "/images/personal-portfolio/projet-3.webp",
             "scenario": "Vous travaillez comme développeur front-end pour l'agence ArchiWebos qui comprend 50 salariés. Vous travaillez sur la conception du site portfolio d'un architecte d'intérieur. Vous avez 3 missions principales. Vous devez développer : - la page de présentation des travaux de l'architecte (à partir du HTML fourni); - la page de connexion de l'administrateur du site (le client)(code à créer de zéro); - la modale permettant d'uploader de nouveaux médias (code à créer from scratch).",
             "description": "Ce projet m'a permis de démontrer ma polyvalence en tant que développeur front-end. J'ai travaillé sur différentes parties du site, de la page d'accueil basée sur une maquette existante à la création complète de fonctionnalités complexes comme la page de connexion et la modale d'upload. J'ai utilisé un éventail de technologies (HTML, CSS, Sass, Figma, GitHub) pour livrer un produit final de haute qualité, tout en intégrant une API REST pour des fonctionnalités plus avancées.",
+            "github":"https://github.com/Anissa-L/JSprojet_6",
             "competences":[
                 {
                     "image": "/images/personal-portfolio/html.png",
@@ -116,6 +121,7 @@
             "image": "/images/personal-portfolio/projet-4.webp",
             "scenario": "Vous êtes développeur front-end en freelance pour Kasa, une entreprise de location d'appartements entre particuliers. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de location d'appartements entre particuliers en France. L'occasion parfaite pour vous d'ajouter une belle référence à votre portfolio de freelance ! Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec code de legacy important. Laura, la CTO, a donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Kasa en a également profité pour commander de nouvelles maquettes auprès de son designer habituel, qui est en freelance. Un gros chantier pour cette année !",
             "description": "En tant que développeur front-end, j'ai été chargé de moderniser l'interface utilisateur de Kasa en utilisant React. Partant d'une base de code legacy, j'ai mis en place une architecture composant, optimisée pour les performances et la maintenabilité. J'ai développé de nombreuses fonctionnalités, telles que la recherche d'hébergements, la gestion des favoris et les pages détaillées des annonces, en me basant sur des maquettes Figma. Ce projet m'a permis de renforcer mes compétences en React, en JavaScript moderne et en gestion de state.",
+            "github":"https://github.com/Anissa-L/P8",
             "competences":[
                 {
                     "image": "/images/personal-portfolio/html.png",
@@ -167,6 +173,7 @@
             "image": "/images/personal-portfolio/projet-5.webp",
             "scenario": "Vous êtes développeur freelance et vous décidez de proposer vos services d'optimisation SEO à de nouveaux clients. Parmi vos prospects, il y a le site de Nina Carducci, une photographe dont vous a parlé un de vos amis.",
             "description": "En tant que développeur front-end, j'ai été sollicité pour améliorer la visibilité en ligne du site de Nina Carducci, une photographe. J'ai mené une optimisation SEO complète en me basant sur les recommandations de Lighthouse. Mes interventions ont porté sur la structure HTML, l'expérience utilisateur et le contenu.",
+            "github":"https://github.com/Anissa-L/Projet-9",
             "competences":[
                 {
                     "image": "/images/personal-portfolio/html.png",
@@ -193,6 +200,7 @@
             "image": "/images/personal-portfolio/projet-6.webp",
             "scenario": "Vous venez d'intégrer Argent Bank comme développeur front-end. Argent Bank est une nouvelle banque en ligne qui souhaite percer dans le secteur bancaire. Vous travaillez avec Mila , la cheffe de projet, pour la mise en place des du tableau de bord des utilisateurs.",
             "description": "Dans le cadre de mon intégration chez Argent Bank, j'ai été en charge de concevoir et développer le tableau de bord utilisateur. J'ai utilisé React pour créer une interface utilisateur dynamique et réactive, et Redux pour gérer de manière efficace l'état de l'application. En me basant sur les spécifications fournies, j'ai consommé différentes API pour récupérer les informations des comptes, des transactions et des investissements de chaque utilisateur, offrant ainsi un aperçu complet de leur situation financière.",
+            "github":"https://github.com/Anissa-L/Projet-11",
             "competences":[
                 {
                     "image": "/images/personal-portfolio/html.png",

@@ -45,13 +45,13 @@ This files table contents are outlined below >>>>>
 
 // Global Variable
 
-$main-color: #5d624c;
-$gradient-color: #5d624c;
+$main-color: #18181b;
+$gradient-color: #18181b;
 $main-font-family: "Inter", sans-serif;
 $heading-font-family: "Saira", sans-serif;
 $font-size: 15px;
 $black-color: #18181b;
-$paragraph-color: #646464;
+$paragraph-color: #18181b;
 $white-color: #ffffff;
 $transition: all 0.5s ease;
 
@@ -4760,7 +4760,7 @@ Page Title CSS
 
   h2 {
     margin: 0;
-    color: $white-color;
+    color: $black-color;
     font: {
       size: 50px;
     }
@@ -4768,13 +4768,12 @@ Page Title CSS
 
   &::before {
     content: "";
-    background-color: $black-color;
+
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.8;
   }
   .container {
     position: relative;
@@ -5555,24 +5554,26 @@ Portfolio Details CSS
     }
   }
 }
-.service-details-info {
-  display: -ms-flexbox;
+
+.container-img-infos {
   display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-top: 30px;
+  align-content: flex-end;
+  gap: 10%;
+}
+.service-details-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  height: 70%;
   background: #f4f5fe;
-  padding: 30px 20px 10px;
+  padding: 20px 20px 0px;
   border-radius: 10px;
   .single-info-box {
-    -ms-flex: 0 0 20%;
-    flex: 0 0 20%;
-    max-width: 20%;
+    display: flex;
+    justify-content: center;
     margin-bottom: 20px;
-    padding: {
-      left: 15px;
-      right: 15px;
-    }
+
     h4 {
       margin-bottom: 10px;
       font: {
@@ -5651,6 +5652,26 @@ Portfolio Details CSS
         border: 1px solid #f9004d;
       }
     }
+  }
+}
+
+.competenceslist {
+  padding-top: 10px;
+}
+.competence-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5%;
+  padding: 10px 0px 10px 20px;
+}
+
+.competence-item-logo {
+  img {
+    padding-bottom: 5px;
+  }
+  h4 {
+    font-size: 20px;
   }
 }
 

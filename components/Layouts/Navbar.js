@@ -68,19 +68,7 @@ const Navbar = () => {
                 </li>
 
                 <li className="nav-item">
-                  <Link href="/portfolio/">Portfolio</Link>
-
-                  <ul className="dropdown-menu">
-                    <li className="nav-item">
-                      <Link href="#portfolio">Portfolio</Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link href="/portfolio/portfolio-details/">
-                        Portfolio Details
-                      </Link>
-                    </li>
-                  </ul>
+                  <Link href="#portfolio">Portfolio</Link>
                 </li>
                 <li className="nav-item">
                   <Link href="#skills-section">Mes compétences</Link>
