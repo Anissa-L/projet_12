@@ -79,7 +79,7 @@ const Navbar = () => {
               </ul>
 
               <div className="others-options">
-                <Link href="#contact-section" className="btn btn-primary">
+                <Link href="/#contact-section" className="btn btn-primary">
                   Contactez-moi
                 </Link>
               </div>
