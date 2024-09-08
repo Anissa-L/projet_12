@@ -28,14 +28,16 @@ const MyAllProjects = () => {
                       width={860}
                       height={860}
                     />
-                    <h3>{projet.title}</h3>
-                    <h4>
-                      Voir plus
-                      <Link
-                        href={`/portfolio/${projet.name}`}
-                        className="link-btn"
-                      ></Link>
-                    </h4>
+                    <div className="text-portfolio">
+                      <h3>{projet.title}</h3>
+                      <h4>
+                        Voir plus
+                        <Link
+                          href={`/portfolio/${projet.name}`}
+                          className="link-btn"
+                        ></Link>
+                      </h4>
+                    </div>
                   </div>
                 </div>
               ))}

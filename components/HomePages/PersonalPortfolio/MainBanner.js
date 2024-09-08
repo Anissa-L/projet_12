@@ -45,20 +45,28 @@ const MainBanner = () => {
                   Passionnée par le développement web, je transforme vos idées
                   en réalités digitales. En combinant design et développement,
                   je crée des sites web sur-mesure qui répondent à vos besoins.
-                  Récemment diplômée, je suis impatiente de mettre à profit mes
-                  compétences pour donner vie à vos projets.
                 </p>
-
-                <Link
-                  href="/images/personal-portfolio/cv.pdf"
-                  className="default-btn-two"
-                  data-aos="fade-in"
-                  data-aos-duration="1000"
-                  data-aos-delay="400"
-                  download
-                >
-                  Téléchargez mon CV
-                </Link>
+                <div className="btn-banner-area">
+                  <Link
+                    href="#contact-section"
+                    className=" default-btn-two "
+                    data-aos="fade-in"
+                    data-aos-duration="1000"
+                    data-aos-delay="400"
+                  >
+                    Contactez-moi
+                  </Link>
+                  <Link
+                    href="/images/personal-portfolio/cv.pdf"
+                    className=" default-btn-three"
+                    data-aos="fade-in"
+                    data-aos-duration="1000"
+                    data-aos-delay="400"
+                    download
+                  >
+                    Télechargez mon CV
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

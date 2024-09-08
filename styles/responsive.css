@@ -1,3 +1,12 @@
+/* Max width 992px */
+@media only screen and (max-width: 992px) {
+  .service-details-info {
+    width: 60%;
+  }
+  .service-details-info .single-info-box {
+    flex-direction: column;
+  }
+}
 /* Max width 767px */
 @media only screen and (max-width: 767px) {
   body {
@@ -1007,11 +1016,6 @@
     height: 50px;
     font-size: 30px;
   }
-  .service-details-info .single-info-box {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
   .blog-left-sidebar {
     margin-bottom: 40px;
   }
@@ -1124,11 +1128,6 @@
   }
   .single-pricing-table .btn-box {
     padding: 0px 25px;
-  }
-  .service-details-info .single-info-box {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
   }
 }
 /* Min width 768px to Max width 991px */
@@ -1788,6 +1787,15 @@
   }
   .portfolio-desc.style-2 {
     margin-top: 30px;
+  }
+}
+/* Max width 992px*/
+@media only screen and (max-width: 992px) {
+  .competences-list {
+    justify-content: center;
+  }
+  .competence-item {
+    width: 100%;
   }
 }
 /* Min width 992px to Max width 1199px */

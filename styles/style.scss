@@ -299,23 +299,48 @@ a {
   }
 }
 
+.btn-banner-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 13px;
+}
 .default-btn-two {
-  border: 2px solid $black-color;
-  box-shadow: 0px 0px 10px 2px #ffffff;
-  background: #fff;
-  color: $black-color;
-  border-radius: 6px;
+  border: 0.5px solid $black-color;
+  background: $black-color;
+  color: $white-color;
+  border-radius: 50px;
   text-align: center;
-  padding: 13px 30px;
+  padding: 10px 20px;
+
   display: inline-block;
   font-weight: 600;
   font-size: 15px;
   transition: $transition;
   &:hover,
   &:focus {
-    border: 2px solid #000;
-    background: #000;
-    color: #fff;
+    border: 1px solid #000;
+    background: $white-color;
+    color: $black-color;
+  }
+}
+.default-btn-three {
+  border: 1px solid $black-color;
+  background: $white-color;
+  color: $black-color;
+  border-radius: 50px;
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: 10px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 15px;
+  transition: $transition;
+  &:hover,
+  &:focus {
+    border: 1px solid #000;
+    background: $black-color;
+    color: $white-color;
   }
 }
 
@@ -418,8 +443,8 @@ Navbar CSS
       .nav-item {
         position: relative;
         padding: {
-          left: 12px;
-          right: 12px;
+          left: 16px;
+          right: 16px;
           top: 15px;
           bottom: 15px;
         }
@@ -4749,6 +4774,7 @@ blockquote {
 Page Title CSS
 =================================================*/
 .page-title-area {
+  background-color: $black-color;
   position: relative;
   background-size: cover;
   background-position: center center;
@@ -4768,12 +4794,13 @@ Page Title CSS
 
   &::before {
     content: "";
-
+    background-color: $black-color;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    opacity: 0.3;
   }
   .container {
     position: relative;
@@ -5480,6 +5507,17 @@ Portfolio Details CSS
 }
 .portfolio-desc {
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  margin-top: 50px;
+
+  p {
+    margin-bottom: 80px;
+    text-align: center;
+  }
 
   h1,
   h2,
@@ -5497,6 +5535,7 @@ Portfolio Details CSS
   }
   h3 {
     font-size: 29px;
+    margin-bottom: 30px;
   }
   h4 {
     font-size: 26px;
@@ -5560,24 +5599,25 @@ Portfolio Details CSS
   }
 }
 
-.container-img-infos {
-  display: flex;
-  align-content: flex-end;
-  gap: 10%;
-}
-.service-details-info {
+.container-detail-portfolio {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 40%;
-  height: 70%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.service-details-info {
   background: #f4f5fe;
-  padding: 20px 20px 0px;
+  padding: 20px 20px 20px 20px;
   border-radius: 10px;
+  width: 42%;
+  margin-bottom: 40px;
   .single-info-box {
     display: flex;
+    flex-direction: row;
+    gap: 10px;
     justify-content: center;
-    margin-bottom: 20px;
+    align-items: center;
 
     h4 {
       margin-bottom: 10px;
@@ -5645,6 +5685,9 @@ Portfolio Details CSS
   position: relative;
   img {
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
   }
   .video-box {
     .video-btn {
@@ -5660,18 +5703,24 @@ Portfolio Details CSS
   }
 }
 
-.competenceslist {
-  padding-top: 10px;
+.competences-list {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5%;
 }
 .competence-item {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  gap: 5%;
-  padding: 10px 0px 10px 20px;
+  width: 30%;
 }
 
 .competence-item-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   img {
     padding-bottom: 5px;
   }

@@ -5,27 +5,23 @@ const PortfolioDetailsContent = ({ project }) => {
   return (
     <>
       <div className="portfolio-details ptb-100">
-        <div className="container">
-          <div className="container-img-infos">
-            <div className="pd-preview-img">
-              <Image
-                src={project.image}
-                alt={project.title}
-                width={1320}
-                height={900}
-              />
-            </div>
+        <div className="container container-detail-portfolio">
+          {/*<div className="container-img-infos">*/}
+          <div className="pd-preview-img">
+            <Image
+              src={project.image}
+              alt={project.title}
+              width={1320}
+              height={900}
+            />
+          </div>
 
-            <div className="service-details-info">
-              <div className="single-info-box">
-                <a
-                  href={project.github}
-                  className="default-btn"
-                  target="_blank"
-                >
-                  Github
-                </a>
-              </div>
+          <div className="service-details-info">
+            <div className="single-info-box">
+              <a href={project.github} className="default-btn" target="_blank">
+                Github
+              </a>
+              {/*} </div>*/}
               {project.site && (
                 <div className="single-info-box">
                   <a
