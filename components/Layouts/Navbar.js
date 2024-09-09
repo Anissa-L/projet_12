@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import LA from "../../public/images/personal-portfolio/la.png";
+import LA from "../../public/images/personal-portfolio/la-icone.png";
 
 const Navbar = () => {
   // Add active class

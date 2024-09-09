@@ -1,8 +1,5 @@
 /* Max width 992px */
 @media only screen and (max-width: 992px) {
-  .service-details-info {
-    width: 60%;
-  }
   .service-details-info .single-info-box {
     flex-direction: column;
   }
@@ -831,7 +828,6 @@
     padding-left: 40px;
   }
   .single-footer-widget ul.get-in-touch li i {
-    top: -5px;
     width: 30px;
     height: 30px;
     line-height: 30px;
@@ -1173,9 +1169,6 @@
   }
   .navbar-area nav .navbar-nav .nav-item a {
     font-size: 14px;
-  }
-  .navbar-area nav .others-options {
-    display: none;
   }
   .navbar-area.is-sticky {
     padding: 0;
@@ -1613,7 +1606,6 @@
     padding-left: 40px;
   }
   .single-footer-widget ul.get-in-touch li i {
-    top: -5px;
     width: 30px;
     height: 30px;
     line-height: 30px;
@@ -1796,6 +1788,21 @@
   }
   .competence-item {
     width: 100%;
+  }
+  .single-footer-widget ul.get-in-touch {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .single-footer-widget ul.get-in-touch {
+    display: flex;
+    flex-direction: row;
+    gap: 16%;
+  }
+  .single-footer-widget ul.get-in-touch li i {
+    top: 2px;
   }
 }
 /* Min width 992px to Max width 1199px */

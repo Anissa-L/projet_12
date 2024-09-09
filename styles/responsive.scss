@@ -26,9 +26,6 @@ $transition: 0.5s;
 
 /* Max width 992px */
 @media only #{$media} and ($feature_max : $value_five) {
-  .service-details-info {
-    width: 60%;
-  }
   .service-details-info .single-info-box {
     flex-direction: column;
   }
@@ -1131,7 +1128,6 @@ $transition: 0.5s;
           padding-left: 40px;
 
           i {
-            top: -5px;
             width: 30px;
             height: 30px;
             line-height: 30px;
@@ -1615,10 +1611,6 @@ $transition: 0.5s;
             font-size: 14px;
           }
         }
-      }
-
-      .others-options {
-        display: none;
       }
     }
     &.is-sticky {
@@ -2253,7 +2245,6 @@ $transition: 0.5s;
           padding-left: 40px;
 
           i {
-            top: -5px;
             width: 30px;
             height: 30px;
             line-height: 30px;
@@ -2526,6 +2517,22 @@ $transition: 0.5s;
   }
   .competence-item {
     width: 100%;
+  }
+  .single-footer-widget ul.get-in-touch {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+@media only #{$media} and ($feature_min : $value_five) {
+  .single-footer-widget ul.get-in-touch {
+    display: flex;
+    flex-direction: row;
+    gap: 16%;
+  }
+  .single-footer-widget ul.get-in-touch li i {
+    top: 2px;
   }
 }
 

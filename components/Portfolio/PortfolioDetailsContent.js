@@ -26,7 +26,7 @@ const PortfolioDetailsContent = ({ project }) => {
                 <div className="single-info-box">
                   <a
                     href={project.site}
-                    className="default-btn"
+                    className="default-btn-special"
                     target="_blank"
                   >
                     Voir le projet
