@@ -148,7 +148,10 @@ const ContactForm = () => {
                       </div>
 
                       <div className="col-lg-12 col-sm-12">
-                        <button type="submit" className="btn btn-primary">
+                        <button
+                          type="submit"
+                          className="btn btn-primary btn-border-radius"
+                        >
                           Envoyer
                         </button>
                       </div>

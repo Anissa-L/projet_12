@@ -291,6 +291,13 @@ a:hover, a:focus {
   width: 100%;
 }
 
+.btn-border-radius {
+  border-radius: 30px;
+}
+.btn-border-radius::before {
+  border-radius: 30px;
+}
+
 .btn-banner-area {
   display: flex;
   flex-wrap: wrap;
@@ -4969,10 +4976,10 @@ Portfolio Details CSS
 .service-details-info .single-info-box .default-btn-special {
   display: inline-block;
   padding: 12px 30px;
-  color: #18181b;
+  color: rgb(217, 90, 90);
   text-transform: capitalize;
   background-image: linear-gradient(180deg, rgba(255, 198, 114, 0.5), rgba(254, 163, 163, 0.5));
-  border: 1px solid #18181b;
+  border: 1px solid rgb(254, 163, 163);
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 30px;
@@ -4982,7 +4989,6 @@ Portfolio Details CSS
 .service-details-info .single-info-box .default-btn-special:hover {
   background-color: #ffffff;
   background-image: none;
-  color: #18181b;
 }
 .service-details-info .single-info-box:last-child {
   text-align: center;
@@ -4990,12 +4996,21 @@ Portfolio Details CSS
 
 .pd-preview-img {
   position: relative;
+  width: 50%;
 }
 .pd-preview-img img {
   border-radius: 10px;
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
+  border: 3px solid rgba(255, 198, 114, 0.3);
+}
+.pd-preview-img h4 {
+  text-align: center;
   margin-bottom: 50px;
+  color: rgb(255, 198, 114);
+  font-weight: 300;
+  font-size: 16px;
 }
 .pd-preview-img .video-box .video-btn {
   background-color: #f9004d;
@@ -5279,6 +5294,10 @@ Footer CSS
 .footer-dark .copyright-area {
   background-color: #040404;
   border-top: 1px solid #12141a;
+}
+.footer-dark .logo-la-footer {
+  width: 75%;
+  height: auto;
 }
 
 /*================================================

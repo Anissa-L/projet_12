@@ -312,6 +312,13 @@ a {
   }
 }
 
+.btn-border-radius {
+  border-radius: 30px;
+  &::before {
+    border-radius: 30px;
+  }
+}
+
 .btn-banner-area {
   display: flex;
   flex-wrap: wrap;
@@ -5691,14 +5698,14 @@ Portfolio Details CSS
     .default-btn-special {
       display: inline-block;
       padding: 12px 30px;
-      color: $black-color;
+      color: rgb(217, 90, 90);
       text-transform: capitalize;
       background-image: linear-gradient(
         180deg,
         rgba(255, 198, 114, 0.5),
         rgba(254, 163, 163, 0.5)
       );
-      border: 1px solid $main-color;
+      border: 1px solid rgba(254, 163, 163);
       -webkit-transition: 0.5s;
       transition: 0.5s;
       border-radius: 30px;
@@ -5707,7 +5714,6 @@ Portfolio Details CSS
       &:hover {
         background-color: $white-color;
         background-image: none;
-        color: $main-color;
       }
     }
 
@@ -5719,11 +5725,20 @@ Portfolio Details CSS
 
 .pd-preview-img {
   position: relative;
+  width: 50%;
   img {
     border-radius: 10px;
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
+    border: 3px solid rgba(255, 198, 114, 0.3);
+  }
+  h4 {
+    text-align: center;
     margin-bottom: 50px;
+    color: rgba(255, 198, 114);
+    font-weight: 300;
+    font-size: 16px;
   }
   .video-box {
     .video-btn {
@@ -6057,6 +6072,10 @@ Footer CSS
   .copyright-area {
     background-color: #040404;
     border-top: 1px solid #12141a;
+  }
+  .logo-la-footer {
+    width: 75%;
+    height: auto;
   }
 }
 

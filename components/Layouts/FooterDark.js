@@ -18,7 +18,7 @@ const FooterDark = () => {
               >
                 <div className="logo">
                   <Link href="/">
-                    <Image src={LA} alt="LA" width={70} height={30} />
+                    <Image src={LA} alt="LA" className="logo-la-footer" />
                   </Link>
                 </div>
 

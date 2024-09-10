@@ -59,6 +59,7 @@ const MainBanner = () => {
                   <Link
                     href="/images/personal-portfolio/cv.pdf"
                     className=" default-btn-three"
+                    target="_blank"
                     data-aos="fade-in"
                     data-aos-duration="1000"
                     data-aos-delay="400"
