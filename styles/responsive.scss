@@ -2527,6 +2527,10 @@ $transition: 0.5s;
     flex-direction: column;
     gap: 0;
   }
+  .pd-preview-img {
+    position: relative;
+    width: 100%;
+  }
 }
 
 @media only #{$media} and ($feature_min : $value_five) {
@@ -2537,10 +2541,6 @@ $transition: 0.5s;
   }
   .single-footer-widget ul.get-in-touch li i {
     top: 2px;
-  }
-  .pd-preview-img {
-    position: relative;
-    width: 100%;
   }
 }
 
