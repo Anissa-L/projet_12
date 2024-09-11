@@ -78,6 +78,7 @@ const ContactForm = () => {
                     <div className="row">
                       <div className="col-md-6">
                         <div className="form-group">
+                          <label htmlFor="name">Nom</label>
                           <input
                             type="text"
                             name="name"
@@ -92,6 +93,7 @@ const ContactForm = () => {
 
                       <div className="col-md-6">
                         <div className="form-group">
+                          <label htmlFor="email">Email</label>
                           <input
                             type="text"
                             name="email"
@@ -106,6 +108,7 @@ const ContactForm = () => {
 
                       <div className="col-md-6">
                         <div className="form-group">
+                          <label htmlFor="number">Numéro de téléphone</label>
                           <input
                             type="text"
                             name="number"
@@ -120,6 +123,7 @@ const ContactForm = () => {
 
                       <div className="col-md-6">
                         <div className="form-group">
+                          <label htmlFor="subject">Sujet du courriel</label>
                           <input
                             type="text"
                             name="subject"
@@ -134,6 +138,7 @@ const ContactForm = () => {
 
                       <div className="col-lg-12 col-md-12">
                         <div className="form-group">
+                          <label htmlFor="text">Message</label>
                           <textarea
                             name="text"
                             cols="30"
